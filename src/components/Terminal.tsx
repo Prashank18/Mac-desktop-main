@@ -11,7 +11,7 @@ interface TerminalProps {
 }
 
 const WELCOME_MSG = `Last login: ${new Date().toDateString()} on ttys001
-sprashank@macbook ~ % `;
+sprashank@Macbook-Pro ~ % `;
 
 const COMMANDS: Record<string, string> = {
   help: `Available commands:
@@ -55,7 +55,7 @@ export const Terminal = ({ onClose, onMinimize, onFocus, zIndex }: TerminalProps
     const trimmed = cmd.trim().toLowerCase();
     setHistory((prev) => [
       ...prev,
-      { type: 'input', text: `sprashank@macbook ~ % ${cmd}` },
+      { type: 'input', text: `sprashank@Macbook-Pro ~ % ${cmd}` },
     ]);
 
     if (trimmed === 'clear') {
@@ -78,7 +78,7 @@ export const Terminal = ({ onClose, onMinimize, onFocus, zIndex }: TerminalProps
 
   return (
     <Window
-      title="Terminal — zsh"
+      title="S Prashank — zsh"
       onClose={onClose}
       onMinimize={onMinimize}
       onFocus={onFocus}
@@ -101,7 +101,7 @@ export const Terminal = ({ onClose, onMinimize, onFocus, zIndex }: TerminalProps
 
         {/* Input line */}
         <div className="flex items-center text-white">
-          <span className="text-green-400 mr-1">sprashank@macbook ~ %</span>
+          <span className="text-green-400 mr-1">sprashank@Macbook-Pro ~ %</span>
           <input
             ref={inputRef}
             className="flex-1 bg-transparent outline-none caret-green-400 text-white"
