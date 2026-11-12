@@ -11,7 +11,7 @@ interface TerminalProps {
 }
 
 const WELCOME_MSG = `Last login: ${new Date().toDateString()} on ttys001
-sunil@macbook ~ % `;
+sprashank@macbook ~ % `;
 
 const COMMANDS: Record<string, string> = {
   help: `Available commands:
@@ -21,7 +21,7 @@ const COMMANDS: Record<string, string> = {
   contact       - How to reach me
   clear         - Clear the terminal
   ls            - List files`,
-  whoami: `Sunil
+  whoami: `S Prashank
 Full-stack developer & creative coder
 I build interactive, performant web experiences.`,
   skills: `Languages:   TypeScript, JavaScript, Python, Rust
@@ -33,7 +33,7 @@ Databases:   PostgreSQL, MongoDB, Redis`,
 3. Synapse      - AI chat interface (Python + WebSockets)
 4. Pixel         - Image editor built in the browser (Canvas API)`,
   contact: `Email:    sunil@example.com
-GitHub:   github.com/Sunil56224972
+GitHub:   github.com/Prashank18
 LinkedIn: linkedin.com/in/sunil`,
   ls: `Desktop/     Downloads/    Projects/
 README.md    resume.pdf    .zshrc`,
@@ -55,7 +55,7 @@ export const Terminal = ({ onClose, onMinimize, onFocus, zIndex }: TerminalProps
     const trimmed = cmd.trim().toLowerCase();
     setHistory((prev) => [
       ...prev,
-      { type: 'input', text: `sunil@macbook ~ % ${cmd}` },
+      { type: 'input', text: `sprashank@macbook ~ % ${cmd}` },
     ]);
 
     if (trimmed === 'clear') {
@@ -101,7 +101,7 @@ export const Terminal = ({ onClose, onMinimize, onFocus, zIndex }: TerminalProps
 
         {/* Input line */}
         <div className="flex items-center text-white">
-          <span className="text-green-400 mr-1">sunil@macbook ~ %</span>
+          <span className="text-green-400 mr-1">sprashank@macbook ~ %</span>
           <input
             ref={inputRef}
             className="flex-1 bg-transparent outline-none caret-green-400 text-white"

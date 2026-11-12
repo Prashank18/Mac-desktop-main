@@ -1,4 +1,4 @@
-# Sunil's Mac Desktop
+# S Prashank's Mac Desktop
 
 Welcome to my personal website, styled like macOS! 
 

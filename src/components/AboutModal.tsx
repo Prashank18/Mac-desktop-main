@@ -14,7 +14,7 @@ const SKILLS = ['TypeScript', 'React', 'Next.js', 'Node.js', 'Python', 'PostgreS
 export const AboutModal = ({ onClose, onMinimize, onFocus, zIndex }: AboutModalProps) => {
   return (
     <Window
-      title="About Sunil"
+      title="About S Prashank"
       onClose={onClose}
       onMinimize={onMinimize}
       onFocus={onFocus}
@@ -30,7 +30,7 @@ export const AboutModal = ({ onClose, onMinimize, onFocus, zIndex }: AboutModalP
 
         {/* Name */}
         <div className="text-center">
-          <h1 className="text-2xl font-semibold">Sunil</h1>
+          <h1 className="text-2xl font-semibold">S Prashank</h1>
           <p className="text-sm text-white/50 mt-1">Full-Stack Developer & Creative Coder</p>
         </div>
 
@@ -49,7 +49,7 @@ export const AboutModal = ({ onClose, onMinimize, onFocus, zIndex }: AboutModalP
         {/* Links */}
         <div className="flex gap-4 mt-2">
           <a
-            href="https://github.com/Sunil56224972"
+            href="https://github.com/Prashank18"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs text-blue-400 hover:text-blue-300 underline"

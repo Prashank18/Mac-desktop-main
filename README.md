@@ -28,8 +28,8 @@ A personal portfolio website built as a fully interactive **macOS desktop experi
 
 ```bash
 # Clone the repo
-git clone https://github.com/Sunil56224972/Mac-Desktop.git
-cd Mac-Desktop
+git clone https://github.com/Prashank18/Mac-desktop-main.git
+cd Mac-desktop-main
 
 # Install dependencies
 npm install
@@ -66,7 +66,7 @@ Once you open the Terminal app, try these commands:
 
 | Command    | Description              |
 |------------|--------------------------|
-| `whoami`   | About Sunil              |
+| `whoami`   | About S Prashank         |
 | `skills`   | Technical skill stack    |
 | `projects` | Notable projects         |
 | `contact`  | How to get in touch      |
@@ -75,4 +75,4 @@ Once you open the Terminal app, try these commands:
 
 ## 📄 License
 
-MIT © Sunil
+MIT © S Prashank

@@ -5,12 +5,12 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'Sunil | Mac Desktop',
-  description: "Sunil's personal portfolio, built as an interactive macOS desktop experience.",
-  authors: [{ name: 'Sunil' }],
-  keywords: ['portfolio', 'developer', 'macOS', 'interactive', 'Sunil'],
+  title: 'S Prashank | Mac Desktop',
+  description: "S Prashank's personal portfolio, built as an interactive macOS desktop experience.",
+  authors: [{ name: 'S Prashank' }],
+  keywords: ['portfolio', 'developer', 'macOS', 'interactive', 'S Prashank'],
   openGraph: {
-    title: 'Sunil | Mac Desktop',
+    title: 'S Prashank | Mac Desktop',
     description: "An interactive macOS-style personal portfolio.",
     type: 'website',
   },

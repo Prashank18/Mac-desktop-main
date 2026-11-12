@@ -10,7 +10,7 @@ interface TextEditProps {
   zIndex: number;
 }
 
-const DEFAULT_CONTENT = `# Hi, I'm Sunil 👋
+const DEFAULT_CONTENT = `# Hi, I'm S Prashank 👋
 
 I'm a full-stack developer who loves building beautiful, interactive web experiences.
 
